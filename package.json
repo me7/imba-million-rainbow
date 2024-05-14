@@ -8,6 +8,6 @@
   },
   "devDependencies": {
     "imba": "*",
-    "vite": "*"
+    "vite": "^5.2.11"
   }
 }

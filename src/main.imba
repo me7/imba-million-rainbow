@@ -8,7 +8,8 @@ var colors = new Array<number>(numDiv)
 tag App
 	def setup
 		for i in [0...colors.length]
-			colors[i] = 360 / numDiv * i
+			# colors[i] =  (numDiv / 360 * i) % 360
+			colors[i] =  i / numDiv * 360 * 4
 
 	def render
 		<self @click=(update()) [d:flex inset:0]>
@@ -18,4 +19,4 @@ tag App
 		colors.push(first)
 		# window.requestAnimationFrame(update)
 
-imba.mount <App autorender=100fps>
+imba.mount <App autorender=60fps>
