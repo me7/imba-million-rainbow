@@ -1,6 +1,7 @@
 # imba-million-rainbow
 
 implement [Jack Herrington's million rain demo](https://github.com/jherr/million-rainbow) in imba
+result in http://imba-million-rainbow.surge.sh/
 
 ![img](img.jpg)
 
